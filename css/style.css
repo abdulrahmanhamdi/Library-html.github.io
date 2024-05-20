@@ -670,7 +670,7 @@ a:focus {
 
 
 .book_section {
-  background-color: #B63F26;
+  background-color: #fff;
 }
 
 .book_section .heading_container {
@@ -680,11 +680,11 @@ a:focus {
 .book_section .heading_container h2 {
   color: #000000;
   text-transform: uppercase;
-  margin: 0;
+  margin: 50px;
 }
 
 .book_section .heading_container h2 span {
-  color: #ffffff;
+  color: #B63F26;
 }
 
 .book_section .box {
