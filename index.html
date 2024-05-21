@@ -2,12 +2,8 @@
 <html>
 
 <head>
-  <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -61,19 +57,13 @@
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html"> About</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBooks" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Books</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownBooks">
-                      <a class="dropdown-item" href="bookKatagori.html">All Book</a>
-                      <a class="dropdown-item" href="books.html">Our Book</a>
-                    </div>
+                    <a class="nav-link" href="books.html"> Books</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="teams.html">Our Team</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="about.html"> About</a>
                   </li>
                   <li class="quote_btn-container">
                     
@@ -83,9 +73,9 @@
                           All
                         </button>
                         <div class="dropdown-menu" aria-labelledby="searchDropdown">
-                          <a class="dropdown-item" href="#">Title</a>
-                          <a class="dropdown-item" href="#">Author</a>
-                          <!-- Add more search options as needed -->
+                          <a class="dropdown-item" href="#" name="All">All</a>
+                          <a class="dropdown-item" href="#" name="Title">Title</a>
+                          <a class="dropdown-item" href="#" name="Author">Author</a>
                         </div>
                       </div>
                       <input type="text" class="form-control mr-sm-2" placeholder="Enter your search query" aria-label="Search" id="searchInput">
@@ -93,8 +83,7 @@
                         <i class="fa fa-search" aria-hidden="true"></i>
                       </button>
                     </form>
-                    
-                </li>
+                   </li>
                   <li class="quote_btn-container2">
                   <a href="login.html">
                     <i class="fa fa-user" aria-hidden="true"></i>
@@ -612,18 +601,20 @@
                   Location
                 </span>
               </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +90 1234567890
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope"></i>
-                <span>
-                  superteams@gmail.com
-                </span>
-              </a>
+                <a href="tel:+90 123456789">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                    Call +90 1234567890
+                  </span>
+                </a>
+
+              <a
+              href="mailto:abdulrahmanh524@gmail.com?subject=Example+subject&body=Message+text">
+              <i class="fa fa-envelope"></i>
+              <span>
+                superteams@gmail.com
+              </span>
+            </a>                
             </div>
             <div class="social_box">
               <a href="">
@@ -653,24 +644,11 @@
                   About
                 </a>
                 <a href="books.html">
-                  Our Books
+                  Books
                 </a>
                 <a href="teams.html">
                   Our Team
                 </a>
-                <a href="bookKatagori.html">
-                  All Book
-                </a>
-                <a href="contact.html">
-                  Contact us
-                </a>
-              </a>
-              <a href="login.html">
-                Login
-              </a>
-              <a href="signup.html">
-                Signup
-              </a>
               </div>
             </div>
           </div>
@@ -745,10 +723,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
-  <!-- <script src="js/preview.js"></script> -->
-
+  <!-- searchbtn -->
+  <script src="js/searchbtn.js"></script>
 
 
 </body>
-
 </html>
