@@ -308,6 +308,7 @@ a:focus {
   background-color: #EFE7DD;
   color:black;
   margin-top:10px;
+  margin-left:80px;
   
 }
 
@@ -469,14 +470,7 @@ a:focus {
   color: #6d6d6d;
 }
 
-.slider_section .detail-box a {
-  display: inline-block;
-  padding: 10px 45px;
-  background-color: #252525;
-  color: #ffffff;
-  border-radius: 5px;
-  margin-top: 15px;
-}
+
 
 .slider_section .detail-box a:hover {
   background-color: #0c0c0c;
@@ -1860,12 +1854,11 @@ a:focus {
   margin-right: 10px;
 }
 
-.info_section .info_post .post_box .img-box img {
-  width: 55px;
-}
+
 
 .info_section .info_post .post_box p {
   margin: 0;
+  color:#fff;
 }
 
 .info_section .info_post .post_box:not(:nth-last-child(1)) {
@@ -2028,6 +2021,15 @@ a:focus {
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
+}
+.signup_section .login_link{
+  text-align: center;
+  margin-top: 15px;
+}
+.signup_section .login_link p a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .signup_section form button.btn {
